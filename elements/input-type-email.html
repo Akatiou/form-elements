@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Type email</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<style>
+		input[type="text"] {
+			display: block;
+			margin:12px 0;
+			padding: 12px;
+		}
+	</style>
+</head>
+<body class="element">
+	<div class="layout">
+		<section class="content">
+			<a class="link-to-home" href="../index.html">Retour sur la page d'accueil</a>
+			<h1>Input Type email</h1>
+			<p>
+				L'élément HTML <code>&lt;input&gt;</code> est utilisé pour créer un contrôle interactif dans un formulaire web qui permet à l'utilisateur de saisir des données. L'élément HTML <code>&lt;input type="email"&gt;</code> est un élément de saisie qui permet à l'utilisateur d'entrer et de modifier une ou plusieurs adresses e-mails, si l'attribut multiple est spécifié. La valeur d'entrée est automatiquement validée pour s'assurer qu'elle ne soit pas vide ou que l'adresse courriel saisie soit correcte, avant que le formulaire ne puisse être envoyé. Les pseudo-classes de CSS :valide et :invalide sont automatiquement appliquées selon le cas.
+			</p>
+			<section>
+				<h2>Exemple</h2>
+				<form>
+					<label for="courriel">Adresse mail :</label>
+					<input id="emailAddress" type="email">
+				</form>
+			<section>
+				<h2>Code derrière tout ça&nbsp;:</h2>
+					<pre>
+&lt;input type="email" id="emailAdress"&gt;
+&lt;input type="email" id="courriel"&gt;
+&lt;input id="emailAddress" type="email" multiple &gt;
+
+					</pre>
+				<h3>Quelques attributs&nbsp;:</h3>
+				<ul>
+					<li><code>Type</code> : l'attribut le plus important est l'attribut type. Ce dernier est extrêmement important puisqu'il définit le comportement de l'élément < input >. Il peut radicalement changer le sens de l'élément, faites-y attention.</li>
+					<li><code>Placeholders</code> : Parfois, il est utile d'offrir un indice sur le contexte de la forme que les données d'entrée devraient prendre. Ceci peut être particulièrement important si la conception de la page n'offre pas d'explications descriptives pour chaque <code>input</code>>. C'est là que les "placeholders" sont utiles. Un "placeholders" est une valeur qui démontre la forme que la valeur devrait prendre en présentant un exemple valide, qui s'affiche dans la zone d'édition. Une fois que les données sont entrées dans la boîte, l'espace réservé disparaît; Si la case est vidée, l'espace réservé réapparaît </li>
+					<li><code>Multiple</code> : En ajoutant l'attribut multiple, l'entrée peut être configurée pour accepter plusieurs adresses de messagerie. Maintenant, la saisie est considérée comme valide lorsqu'une seule adresse e-mail est entrée, ou lorsqu'un nombre d'adresses email séparées par des virgules et, éventuellement, un certain nombre de caractères blancs sont présents.</li>
+				</ul>
+			</section>
+		<aside>
+			<h3>Plus d'info sur le sujet&nbsp;:</h3>
+			<ul>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email#Value" target="_blank">Input sur MDN</a></li>
+			</ul>
+		</aside>
+		</section>
+		<section class="list-of-links">
+			<h2>Liste des éléments&nbsp;:</h2>
+			<ul class="list-of-links__ul">
+				<li><a href="input-type-checkbox.html">input type checkbox</a></li>
+				<li><a href="input-type-email.html">input type email</a></li>
+				<li><a href="input-type-file.html">input type file</a></li>
+				<li><a href="input-type-number.html">input type number</a></li>
+				<li><a href="input-type-radio.html">input type radio</a></li>
+				<li><a href="input-type-range.html">input type range</a></li>
+				<li><a href="input-type-reset.html">input type reset</a></li>
+				<li><a href="input-type-submit.html">input type submit</a></li>
+				<li><strong>input type text</strong></li>
+				<li><a href="select.html">select</a></li>
+			</ul>
+		</section>
+	</div>
+</body>
+</html>
